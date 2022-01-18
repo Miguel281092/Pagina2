@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=The+Nautigal&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 65.2%;
+  font-family: "The Nautigal", cursive;
+  color: rgb(99, 29, 67);
+  font-weight: bolder;
+}
+h1 {
+  font-size: 3.6rem;
+}
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(247, 240, 240, 0.6), rgba(0, 0, 0, 0.6)),
+    url(media/imag/245757623_102477538890833_814133591581424992_n.jpg);
+  background-position-y: center;
+  background-size: cover;
+}
+nav {
+  padding: 2% 8%;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  display: inline;
+  margin: 3px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.logo h1 {
+  color: red;
+}
+a:hover {
+  color: red;
+  font-size: 3.6rem;
+  transition: 10ms;
+}
