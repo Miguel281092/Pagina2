@@ -42,3 +42,31 @@ a:hover {
   font-size: 3.6rem;
   transition: 10ms;
 }
+.icono-menu {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 28px;
+}
+@media only screen and (max-width: 768px) {
+  .icono-menu {
+    display: block;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    background-color: rgb(44, 13, 131);
+    display: none;
+  }
+  .mostrar {
+    display: block;
+  }
+  nav ul li {
+    display: block;
+    padding: 1%, 0;
+  }
+  nav ul li a {
+    color: rgb(185, 19, 19);
+  }
+}
