@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=The+Nautigal&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-size: 65.2%;
-  font-family: "The Nautigal", cursive;
+  font-family: "EB Garamond", serif;
   color: rgb(44, 29, 99);
   font-weight: 550;
 }
@@ -77,20 +77,98 @@ input {
   border: 1px rgb(28, 147, 202);
   border-radius: 2%;
   color: rgb(153, 60, 44);
-}
-h3 {
-  color: black;
-  font-size: 1.8rem;
+  cursor: pointer;
 }
 .contenedor-quienessomos {
   display: flex;
   justify-content: space-between;
 }
+.foother {
+  color: blue;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.t-foother {
+  color: black;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.t-foothersub {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: blue;
+}
+.dj {
+  width: 80%;
+}
+
 .Compañia,
 .Historia,
 .testimonios {
-  width: 30%;
+  flex-basis: 30%;
+  padding: 2rem;
 }
+.testimonio-contenedor {
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem;
+}
+.tarjeta-testimonio {
+  flex-basis: 50%;
+}
+.foto-perfil {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 2px solid rgb(28, 147, 202);
+}
+.datos-cliente {
+  display: flex;
+}
+.nombre-cliente {
+  padding: 2rem 3rem;
+  font-size: 4rem;
+}
+.testimonio-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(250, 246, 246, 0.6));
+}
+.contacto {
+  text-align: center;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem;
+  background: linear-gradient(rgba(247, 240, 240, 0.6), rgba(0, 0, 0, 0.6));
+}
+.form-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-c textarea {
+  width: 40rem;
+  height: 10rem;
+  color: steelblue;
+  font-size: 1.6rem;
+  margin-top: 0.4rem;
+}
+.form-c input {
+  width: 40rem;
+  margin-bottom: 1rem;
+  color: steelblue;
+}
+.form-c button {
+  width: 40rem;
+}
+footer {
+  background-color: rgb(135, 144, 151);
+  height: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 768px) {
   .icono-menu {
     display: block;
